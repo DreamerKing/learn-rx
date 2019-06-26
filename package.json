@@ -1,21 +1,28 @@
 {
   "name": "learn-rxjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "learn rxjs",
   "main": "index.js",
   "scripts": {
     "build": "babel learn.js -d dist",
+    "start": "npx babel-node learn.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "rx",
+    "rxjs"
+  ],
+  "author": "Dreamer  King",
   "license": "MIT",
   "dependencies": {
-    "rxjs": "^5.4.3"
+    "immutable": "^4.0.0-rc.12",
+    "rxjs": "^6.3.3"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.0"
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/preset-env": "^7.1.5"
   }
 }
