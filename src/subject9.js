@@ -3,7 +3,7 @@ import { map, take, multicast, delay, tap } from "rxjs/operators";
 
 const subject = new Subject();
 
-const tick$ = interval(1000).pipe(take(10)).pipe(tap( x => console.log('source', x))
+const tick$ = interval(1000).pipe(take(10)).pipe(tap( x => console.log('source', x));
 
 const tick = tick$;
 const delayTick = tick.pipe(delay(500));

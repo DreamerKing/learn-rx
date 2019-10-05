@@ -1,6 +1,6 @@
 import { interval, Subject } from "rxjs";
 import { map, take } from "rxjs/operators";
-
+// subject不可重复
 const subject = new Subject();
 subject.subscribe(
   value => console.log('data 1:', value),
@@ -10,8 +10,8 @@ subject.subscribe(
 
 subject.next(1);
 subject.next(2);
-subject.error(new Error("oops!"))
-// subject.complete();
+//subject.error(new Error("oops!"))
+subject.complete();
 
 subject.subscribe(
     value => console.log("data 2:", value),
