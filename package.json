@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "learn rxjs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "babel learn.js -d dist",
     "start": "npx babel-node learn.js",
@@ -16,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "immutable": "^4.0.0-rc.12",
-    "rxjs": "^6.3.3"
+    "rxjs": "^7.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",

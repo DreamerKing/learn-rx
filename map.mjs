@@ -1,18 +1,18 @@
 import { Observable } from "rxjs";
 
 function map(project){
-    return new Observable(observer => {
-        const sub = this.subscribe({
+    return new Observable(subscrber => {
+        const sub = subscrber.subscribe({
             next: value => {
                 try {
-                    observer.next(project(value));
+                    subscrber.next(project(value));
                 } catch (error) {
-                    observer.error(error);
+                    subscrber.error(error);
                 }
                
             },
-            error: err => observer.error(error),
-            complete: () => observer.complete()
+            error: err => subscrber.error(error),
+            complete: () => subscrber.complete()
         });
         return {
             unsubscribe: () => {

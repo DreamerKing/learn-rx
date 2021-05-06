@@ -15,6 +15,9 @@
 [响应式编程](https://zhuanlan.zhihu.com/p/27678951)
 [响应式编程知多少 | Rx.NET 了解下](https://www.cnblogs.com/sheng-jie/p/10399049.html)
 
+观察者模式  
+迭代器模式
+
 操作符分类
 + 创建类
   + create(fn)
