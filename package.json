@@ -16,14 +16,14 @@
   "author": "Dreamer  King",
   "license": "MIT",
   "dependencies": {
-    "immutable": "^4.0.0-rc.12",
-    "rxjs": "^7.0.0"
+    "immutable": "^4.0.0",
+    "rxjs": "^7.4.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.1.5",
-    "@babel/node": "^7.0.0",
-    "@babel/plugin-proposal-function-bind": "^7.2.0",
-    "@babel/preset-env": "^7.1.5"
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/plugin-proposal-function-bind": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
   }
 }
